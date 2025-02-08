@@ -1,0 +1,42 @@
+﻿@model IEnumerable<Dapper.Data.Models.Domain.TaskDetailRequestModel>
+
+@{
+}
+
+<h3>Task list</h3>
+
+<div class="my-2">
+    <a href="/Task/AddTask" class="btn btn-info my-2">Add New Task</a>
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Description</th>
+                <th>Status</th>
+                <th>CreatedAt</th>
+                <th>DueDate</th>
+                <th>Priority</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var task in Model)
+            {
+                <tr>
+                    <td>@task.Title</td>
+                    <td>@task.Description</td>
+                    <td>@task.Status</td>
+                    <td>@task.CreatedAt</td>
+                    <td>@task.DueDate</td>
+                    <td>@task.Priority</td>
+                    <td>
+                        <a href="/Task/UpdateTask?id=@task.Id" class="btn btn-success">Edit</a>
+                        <a href="/Task/DeleteTask?id=@task.Id" onclick="return window.confirm('Arey you sure to delete this task?')" class="btn btn-danger">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</div>
