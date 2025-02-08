@@ -2215,11 +2215,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Aashi\\Downloads\\TaskMangementSystem(Assignment)\\TaskMangementSystem(Assignment)\\Task Management System\\Dapper.Data\\Dapper.Data.csproj",
+      "projectUniqueName": "D:\\TaskMangementSystem(Assignment)\\test\\TaskMangementSystem\\Dapper.Data\\Dapper.Data.csproj",
       "projectName": "Dapper.Data",
-      "projectPath": "C:\\Users\\Aashi\\Downloads\\TaskMangementSystem(Assignment)\\TaskMangementSystem(Assignment)\\Task Management System\\Dapper.Data\\Dapper.Data.csproj",
+      "projectPath": "D:\\TaskMangementSystem(Assignment)\\test\\TaskMangementSystem\\Dapper.Data\\Dapper.Data.csproj",
       "packagesPath": "C:\\Users\\Aashi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Aashi\\Downloads\\TaskMangementSystem(Assignment)\\TaskMangementSystem(Assignment)\\Task Management System\\Dapper.Data\\obj\\",
+      "outputPath": "D:\\TaskMangementSystem(Assignment)\\test\\TaskMangementSystem\\Dapper.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
